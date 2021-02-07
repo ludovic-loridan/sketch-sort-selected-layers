@@ -4,7 +4,7 @@
 
 Quickly cleanup your files by sorting layers or artboards by their Y or X position.
 
-### [Download the plugin](../../releases/latest/download/sketch-sort.sketchplugin.zip)
+### [Download the plugin](../../releases/latest/download/sketch-sort-selected-layers.sketchplugin.zip)
 
 ✅ Works with Runner - ✅ Tested on Sketch 70
 
