@@ -1,0 +1,25 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "⬇ By Y Position",
+      "identifier": "sketch-sort-selected-layers.by-y",
+      "script": "./by-y-position.js",
+      "icon": "runner_icon_y.png"
+    },
+    {
+      "name": "➡ By X Position",
+      "identifier": "sketch-sort-selected-layers.by-x",
+      "script": "./by-x-position.js",
+      "icon": "runner_icon_x.png"
+    }
+  ],
+  "menu": {
+    "title": "Sort Selected Layers",
+    "items": [
+      "sketch-sort-selected-layers.by-y",
+      "sketch-sort-selected-layers.by-x"
+    ]
+  }
+}

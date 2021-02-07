@@ -1,0 +1,33 @@
+{
+  "$schema": "https://raw.githubusercontent.com/sketch-hq/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+    {
+      "name": "⬇ By Y Position",
+      "identifier": "sketch-sort-selected-layers.by-y",
+      "script": "__by-y-position.js",
+      "icon": "runner_icon_y.png"
+    },
+    {
+      "name": "➡ By X Position",
+      "identifier": "sketch-sort-selected-layers.by-x",
+      "script": "__by-x-position.js",
+      "icon": "runner_icon_x.png"
+    }
+  ],
+  "menu": {
+    "title": "Sort Selected Layers",
+    "items": [
+      "sketch-sort-selected-layers.by-y",
+      "sketch-sort-selected-layers.by-x"
+    ]
+  },
+  "version": "1.0.0",
+  "description": "A handy plugin to sort layers or artboards by Y or by X position.",
+  "name": "Sort Selected Layers",
+  "identifier": "Sort Selected Layers",
+  "disableCocoaScriptPreprocessor": true,
+  "appcast": "https://raw.githubusercontent.com//master/.appcast.xml",
+  "author": "Ludovic Loridan",
+  "authorEmail": "ludovic.loridan@me.com"
+}
