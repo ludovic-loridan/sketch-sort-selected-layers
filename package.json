@@ -23,5 +23,9 @@
   "devDependencies": {
     "@skpm/builder": "^0.7.0"
   },
-  "author": "Ludovic Loridan <ludovic.loridan@me.com>"
+  "author": "Ludovic Loridan <ludovic.loridan@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ludovic-loridan/sketch-sort-selected-layers.git"
+  }
 }
