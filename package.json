@@ -1,7 +1,7 @@
 {
   "name": "sketch-sort-selected-layers",
   "description": "A handy plugin to sort layers or artboards by Y or by X position.",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "engines": {
     "sketch": ">=49.0"
   },
